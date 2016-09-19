@@ -1,3 +1,7 @@
+th, td {
+    padding: 10px;
+    text-align: center;
+}
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
 body {
   font-family: 'Lato', sans-serif;
@@ -1451,20 +1455,20 @@ input[type="submit"] {
   margin-bottom: 20px;
   position: relative;
   /*  
-			&:before{
-				content: '';
-				position: absolute;
-				background: rgba(43, 44, 48, 0.8);
-				top: 0;
-				opacity: 0;
-				width: 100%;
-				left: 0;
-				height: 100%;
-				-webkit-transition: all 0.4s ease;
-				-moz-transition: all 0.4s ease;
-				transition: all 0.4s ease;
-			}		
-			*/
+      &:before{
+        content: '';
+        position: absolute;
+        background: rgba(43, 44, 48, 0.8);
+        top: 0;
+        opacity: 0;
+        width: 100%;
+        left: 0;
+        height: 100%;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+      }   
+      */
 }
 .project .projects-box .projects-thumb:hover:before {
   opacity: 1;
@@ -1567,6 +1571,12 @@ input[type="submit"] {
 }
 .client-logo {
   overflow: hidden;
+}
+.align-text{
+  text-align: center;
+}
+.align-items{
+  margin-left: 475px;
 }
 .client-item {
   padding: 15px 0;

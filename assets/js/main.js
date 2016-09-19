@@ -148,6 +148,16 @@ $(document).ready(function($) {
 
   });
 
+  $("#main_section").owlCarousel({
+    navigation : true, // Show next and prev buttons
+    slideSpeed : 300,
+    pagination: false,
+    paginationSpeed : 400,
+    singleItem:true,
+    stopOnHover: true,
+    autoPlay: 3000,
+  });
+  
   // Client Logo
   $("#client-logo").owlCarousel({
     navigation : false,
